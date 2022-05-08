@@ -8,6 +8,7 @@ import { useContext } from "react";
 import { Route, Routes } from 'react-router-dom'
 import { Home } from './components/newHome'
 import { Navbar } from './components/Navbar'
+import { Analytics } from './components/analytics'
 
 function App() {
 
@@ -19,13 +20,14 @@ function App() {
       {/* <Test></Test>
       <Calender ></Calender>   */}
       {/* {blur ? <Test></Test> : <Calender></Calender>} */}
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar>
       <Routes>
         <Route>
         <Route path="/" element= {<Home />}></Route>
         <Route path='/calendar' element = {blur ? <Test></Test> : <Calender></Calender>}></Route>
         </Route>
-      </Routes>
+      </Routes> */}
+      <Analytics></Analytics>
       
 
     </div>
