@@ -1,0 +1,259 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.boxcontainer
+{
+    /* border: 1px solid grey; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 35%;
+    height: 330px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    position: fixed;
+    background-color: white;
+    margin-left: 29%;
+}
+
+
+.boxheader
+{
+    /* border: 1px solid grey; */
+    height: 45px;
+    background-color: #f7f7f7;
+}
+.boxnote
+{
+   
+    margin-top: 10px;
+    margin-left: 180px;
+    position: fixed;
+    font-size: 20px;
+    font-weight: bold;
+    color: #676767;
+}
+
+.cut
+{
+    position: fixed;
+    font-size: 20px;
+    margin-left: 33.2%;
+    margin-top: 10px;
+    color: #676767;
+    cursor: pointer;
+}
+
+.bnote{
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #676767;
+}
+
+.btext{
+    margin-left: 20px;
+    width: 92%;
+    margin-top: 2px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.blast
+{
+    margin-left: 20px;
+    display: flex;
+    
+}
+
+.bdate
+{
+    font-size: 17px;
+    margin-top: 5px;
+    background-color: #f7f7f7;
+    width: 250px;
+    border: none;
+}
+
+.bbdate
+{
+    color: #676767;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bvisible
+{
+    margin-left: 15px;
+}
+
+.bbvisible
+{
+    color: #676767;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bbbv{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #676767;
+}
+.bline
+{
+    margin-top: 20px;
+}
+
+.bcircle
+{
+    border: 1px solid gray;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    
+    margin-right: 450px;
+    cursor: pointer;
+    background-color: white;
+}
+
+/* .bcolor.active
+{
+
+} */
+
+.multiple > div > div
+{
+    border: 1px solid;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-left: 10px;
+    
+}
+.purple
+{
+    background-color: #b12eee;
+}
+.blue
+{
+    background-color:#1d84fc;
+}
+.orange
+{
+    background-color: darkorange;
+}
+
+.multiple
+{  
+    position: fixed;
+    /* border: 1px solid ; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: -190px;
+    background-color: white;
+    margin-left: 24px;
+    width: 200px;
+    visibility: hidden;   
+    transition: 0.5s;
+}
+
+.multiple > div{
+    display: flex;
+    margin-top: 10px;
+}
+
+.multiple p 
+{
+   
+    margin-left: 10px;
+}
+
+.multiple.active
+{
+    visibility: visible;
+}
+
+
+.multiple > div:hover
+{
+    background-color: rgb(232, 228, 228);
+    cursor: pointer;
+}
+
+.bcirclep
+{
+    border: 1px solid #b12eee;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #b12eee;
+    transition: 0.5s;
+    margin-right: 450px;
+}
+.bcircleb
+{
+    border: 1px solid #1d84fc;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color:#1d84fc ;
+    transition: 0.5s;
+    margin-right: 450px;
+}
+.bcircleo
+{
+    border: 1px solid darkorange ;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: darkorange ;
+    transition: 0.5s;
+    margin-right: 450px;
+}
+.bcirclew
+{
+    border: 1px solid grey;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color:white;
+    transition: 0.5s;
+    margin-right: 450px;
+}
+
+.bfinal
+{
+    
+    width: 80px;
+    height: 30px;
+    margin-left: 440px;
+    margin-top: -35px;
+    background-color:#d17760  ;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.bfinal div{
+    font-size: 13px;
+    color: white;
+    position: fixed;
+    margin-left: 13px;
+    margin-top: 4.5px;
+    cursor: pointer;
+}
+
