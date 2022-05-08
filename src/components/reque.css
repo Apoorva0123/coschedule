@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "muso-sans-small";
+    src: local("muso-sans-small") url("../../public/museo_sans_ssv/Museo\ Sans\ 100/");
+}
+#masterContainer{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 75%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+
+#outerdiv1{
+    width: 40%;
+    background-color: #f7f7f7;
+}
+#side1-feature{
+    padding: 40px;
+}
+#this-features{
+    color: #666666;
+    font-size: 19px;
+    line-height: 24.5px;
+    font-weight: 800;
+    font-family: "muso-sans-500";
+
+}
+#upgradeto-maketing{
+    color: #EC8864;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: "muso-sans-500";
+}
+#side1-feature>span>img{
+    height: 70px;
+    width: 70px;
+}
+
+
+
+#mainContent-side2{
+    padding: 40px 60px 60px;
+}
+
+
+
+#heading-nevermiss>h3{
+    font-size: 22px ;
+    color: #666666; 
+    margin : 5px;
+    font-family: "muso-sans-500";
+}
+#heading-nevermiss>p{
+    font-size: 14px ;
+    color: #666666; 
+    margin-top: 0px;
+    font-family: "muso-sans-300";
+
+}
+#contentdiv1{
+    display: flex;
+    margin-top: 20px;
+}
+
+#imgdiv1{
+    padding: 5px;
+}
+#imgdiv1>img{
+    height: 82px;
+    width: 82px;
+}
+#dataDiv1>h4{
+    font-size: 17px;
+    line-height:20px ;
+    color: #666666;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: "muso-sans-500";
+    
+}
+#dataDiv1>p{
+    font-size:14px ;
+    line-height: 20px;
+    color: #666666;
+    margin-top: 0px;
+    font-family: "muso-sans-300";
+
+}
+
+#bottomContent>a{
+    color: #EC8864;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 10%;
+    font-family: "muso-sans-300";
+}
+#bottomContent>button{
+    padding: 13px 35px;
+    border: none;
+    background-color:#EC8864 ;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-family: "muso-sans-500";
+
+}
