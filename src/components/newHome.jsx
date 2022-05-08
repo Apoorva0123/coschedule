@@ -10,18 +10,12 @@ export const Home = () => {
   const [inputList, setInputList] = useState([{ todos: ""}]);
   const [text2, setText2] = useState([])
 
-
-//   const todos = useSelector(store => store.todos);
-//   const dispatch = useDispatch();
-
  const handleAddone = () => {
     const payload = {
       note: text,
-      //status: false
+     
     }
-    //const payload = text;
-   
-    fetch("http://localhost:8081/todos", {
+    fetch("http://localhost:8080/todos", {
       body: JSON.stringify(payload),
       headers: {
         "content-type": "application/json"
@@ -33,11 +27,11 @@ export const Home = () => {
 
 async function getData()
 {
-    var res = await fetch("http://localhost:8081/todos")
+    var res = await fetch("http://localhost:8080/todos")
     var data  = await res.json()
    
     setText2(data);
-    console.log(text2)
+    // console.log(text2)
 }
 
   useEffect(() => {
@@ -50,7 +44,7 @@ async function getData()
   }
 
   return (
-    <div style={{ marginLeft: 80 }} className="container">
+    <div style={{ marginLeft: 80 }} className="apporvacontainer">
       <div className="left">
         <div className="left_boxes">
           <div className="start">
@@ -138,7 +132,7 @@ async function getData()
             <div
               style={{
                 width: "25%",
-                border: "red solid 1px",
+                // border: "red solid 1px",
                 height: "300px",
                 marginLeft: "10px",
               }}
