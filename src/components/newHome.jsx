@@ -21,7 +21,7 @@ export const Home = () => {
         "content-type": "application/json"
       },
       method: "POST"
-    }).then(getData())
+    }).then(getData);
     
   }
 
@@ -31,12 +31,11 @@ async function getData()
     var data  = await res.json()
    
     setText2(data);
-    // console.log(text2)
 }
 
   useEffect(() => {
     getData();
-  },[])
+  },[text])
 
 
   const handleAddClick = () => {
@@ -55,7 +54,7 @@ async function getData()
               Getting Started
             </h3>
           </div>
-          <div style={{ color: "#666" }}>
+          <div style={{ color: "#666", padding:"10px" }}>
             Successful marketers complete these milestones within their first
             week.
           </div>
@@ -152,12 +151,54 @@ async function getData()
               The Bulk Project Import tool is also available via the Create
               menu.
             </p>
+            <div className="brands">
+              <div style={{display:"flex",marginBottom:"30px"}}>
+              <button className="brandButton">
+                <img className="brandImg" src="https://app.coschedule.com/img/competitor-tools/microsoft-excel-b2fbe2497f5019511a2587b02f684fec.svg"/>
+                <span>Microsoft Excel</span>
+              </button>
+              <button className="brandButton">
+                <img className="brandImg" src="https://app.coschedule.com/img/competitor-tools/monday-093821aaa889e3f3c686c8d65ed0512f.svg"/>
+                <span>Monday.com</span>
+              </button>
+              <button className="brandButton">
+                <img className="brandImg" src="https://app.coschedule.com/img/competitor-tools/google-sheets-fef337dac965d492fcc6f3fc2f23a5eb.svg"/>
+                <span>Google Sheets</span>
+              </button>
+              <button className="brandButton">
+                <img className="brandImg" src="https://app.coschedule.com/img/competitor-tools/asana-5b3de9ab8d4b3b5be08da2ba57133c59.svg"/>
+                <span>Asana</span>
+              </button>
+              <button className="brandButton">
+                <img className="brandImg" src="https://app.coschedule.com/img/competitor-tools/wrike-9ec4a5a3b24cdec1d2f751f3c3391110.svg"/>
+                <span>Wrike</span>
+              </button>
+              </div>
+              <div style={{display:"flex"}}>
+              <button className="brandButton">
+                <img className="brandImg" src="https://app.coschedule.com/img/competitor-tools/trello-66af0f41e1112165ba8305c85aee835a.svg"/>
+                <span>Trello</span>
+              </button>
+              <button className="brandButton">
+                <img className="brandImg" src="https://app.coschedule.com/img/competitor-tools/divvyhq-d4ef6402ed5c5ca143c2b6f47ad60b56.svg"/>
+                <span>Divvy HQ</span>
+              </button>
+              <button className="brandButton">
+                <img className="brandImg" src="https://app.coschedule.com/img/competitor-tools/jira-50db388f3cf89fdb0b146fbb4c3bab72.svg"/>
+                <span>JIRA</span>
+              </button>
+              <button className="brandButton">
+                <img className="brandImg" src="https://app.coschedule.com/img/competitor-tools/csv-e3d09c7a465cbbcebd5f8185ac4e1237.svg"/>
+                <span>CSV File</span>
+              </button>
+              </div>
+            </div>
           </div>
         </div>
         <div className="left_boxes">
             <div style={{color:"#666", display:"flex", justifyContent:"space-between", padding:"10px"}}>
                 <h4><span><ImCheckmark/></span> My Upcoming</h4>
-                <button onClick={handleAddClick} style={{background:"#d76",color:"white",border:"none",padding:"10px",borderRadius:"5px",display:"flex",justifyContent:"space-between"}}><span><BsPlusLg/></span><span>New Task</span></button>
+                <button onClick={handleAddClick} style={{background:"#d76",color:"white",border:"none",padding:"10px",borderRadius:"5px",display:"flex",justifyContent:"space-between",cursor:"pointer"}}><span><BsPlusLg/></span><span>New Task</span></button>
                 
             </div>
              {inputList.map((x,i) => {
@@ -170,7 +211,7 @@ async function getData()
                 } }>add</button>
                 </div>
             )})}
-            {text2.map(t => <div key={t.id}>{t.note}</div>)}
+            {text2.map(t => <div className="ApShow" key={t.id}>{t.note}</div>)}
             
             <hr style={{color:"grey"}}></hr>
             <div style={{display:"flex",justifyContent:"space-between",padding:"10px"}}>

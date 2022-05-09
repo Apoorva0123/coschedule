@@ -102,12 +102,24 @@
   ],
   "todos": [
     {
-      "note": "sheryash",
-      "id": 1
+      "note": "Walk",
+      "id": 5
     },
     {
-      "note": "apporva",
-      "id": 2
+      "note": "Run",
+      "id": 6
+    },
+    {
+      "note": "Learn Redux",
+      "id": 8
+    },
+    {
+      "note": "Learn React",
+      "id": 9
+    },
+    {
+      "note": "Read a book",
+      "id": 10
     }
   ]
 }
