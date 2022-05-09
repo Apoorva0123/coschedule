@@ -55,10 +55,25 @@
       "id": 1
     }
   ],
-  "two": [],
-  "three": [],
+  "two": [
+    {
+      "note": "Learn React",
+      "id": 1
+    }
+  ],
+  "three": [
+    {
+      "note": "Qwert",
+      "id": 1
+    }
+  ],
   "four": [],
-  "five": [],
+  "five": [
+    {
+      "note": "Larn react",
+      "id": 1
+    }
+  ],
   "six": [],
   "seven": [],
   "eight": [],
@@ -110,15 +125,19 @@
       "id": 6
     },
     {
-      "note": "Learn Redux",
+      "note": "reeact",
+      "id": 7
+    },
+    {
+      "note": "Js",
       "id": 8
     },
     {
-      "note": "Learn React",
+      "note": "Make project",
       "id": 9
     },
     {
-      "note": "Read a book",
+      "note": "laern new things",
       "id": 10
     }
   ]
