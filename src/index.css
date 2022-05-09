@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: "muso-sans-100";
+  src: local("muso-sans-100"),
+    url("./font/museo_sans_ssv/MuseoSans-100.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "muso-sans-300";
+  src: local("muso-sans-300"),
+    url("./font/museo_sans_ssv/MuseoSans-300.otf") format("truetype");
+}
+@font-face {
+  font-family: "muso-sans-500";
+  src: local("muso-sans-500"),
+    url("./font/museo_sans_ssv/MuseoSans_500.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "muso-sans-700";
+  src: local("muso-sans-700"),
+    url("./font/museo_sans_ssv/MuseoSans_700.otf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "muso-sans-900";
+    src: local("muso-sans-900"),
+      url("./font/museo_sans_ssv/MuseoSans_900.otf") format("truetype");
+  }
+  

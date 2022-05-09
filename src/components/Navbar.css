@@ -1,9 +1,12 @@
 .navbar{
-    background-color: whitesmoke;
+    background-color:#f7f7f7;
     height: 50px;
     display: flex;
     justify-content: start;
     align-items: center;
+    /* border: 1px solid black; */
+    /* width: 100px; */
+    /* height: 400px; */
 }
 
 .menu-bars{

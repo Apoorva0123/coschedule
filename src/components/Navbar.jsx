@@ -17,7 +17,7 @@ export const Navbar = () => {
           <FaBars onClick={showSidebar} className="fabar" />
         </Link>
       </div>
-      <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+      <div className={sidebar ? "nav-menu active" : "nav-menu"}>
         <ul className="nav-menu-items" onClick={showSidebar}>
           <li className="navbar-toggle">
             <Link to="#" className="menu-bars">
@@ -35,7 +35,7 @@ export const Navbar = () => {
               )
           })}
         </ul>
-      </nav>
+      </div>
     </>
   );
 };

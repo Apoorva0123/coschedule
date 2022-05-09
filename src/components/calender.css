@@ -17,6 +17,7 @@
 {
     color: #676767;
     margin-top: 15px;
+    font-family: "muso-sans-700";
 }
 .headerss
 {
@@ -48,6 +49,7 @@
     font-size: 14px;
     margin-top: 17px;
     color: grey;
+    font-family: "muso-sans-500";
 }
 
 .search
@@ -65,12 +67,15 @@
     height: 35px;
     margin-top: 10px;
     margin-left: 15px;
-    border-radius: 7px
+    border-radius: 7px;
+    
 }
 .create p{
     margin-top: 5px;
     color: aliceblue;   
     cursor: pointer;
+    font-family: "muso-sans-500";
+
 }
 
 .days
@@ -105,9 +110,10 @@
 
 
 .day{
-    font-size: 15px;
+    font-size: 13px;
     color:  #999999;
-    margin: 0px;   
+    margin: 0px;  
+    font-family: "muso-sans-700"; 
 }
 
 .xyz

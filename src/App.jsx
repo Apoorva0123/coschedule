@@ -17,11 +17,15 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App" >
       {/* <Test></Test>
       <Calender ></Calender>   */}
       {/* {blur ? <Test></Test> : <Calender></Calender>} */}
+      <div >
       <Navbar></Navbar>
+
+      </div>
+      <div>
       <Routes>
         <Route>
         <Route path="/" element= {<Home />}></Route>
@@ -30,6 +34,8 @@ function App() {
         <Route path="/requeue" element={<Reque></Reque>} ></Route>
         </Route>
       </Routes>
+      </div>
+     
       
       
 
