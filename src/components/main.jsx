@@ -1,6 +1,9 @@
 import React from 'react';
 import './main.css'
-import footer from '../images/footer.png'
+import footer from './images/footer.png'
+import AnkitNavbar from './main_navbar';
+import { Link } from 'react-router-dom';
+
 function Main() {
      let imgs = ['https://coschedule.com/_next/image?url=%2Fimg%2Fhome%2Fhome-calendar.png&w=1200&q=75',
     'https://coschedule.com/_next/image?url=%2Fimg%2Ftestimonials%2Fforbes-logo.webp&w=384&q=75',
@@ -22,14 +25,15 @@ function Main() {
 ];
   return (
     <div>
-        <h1 className="heading">
+      <AnkitNavbar></AnkitNavbar>
+        <h1 className="theheading">
             Organize All Of Your Marketing In<br></br> One Place. 
          From&nbsp;Any&nbsp;Place.
         </h1>
         <p className="mini_heading">Get more done in less time with the only work management software for&nbsp;marketers.</p>
-        <a className="start">Get Started Free</a>
+        <Link to={"/home"}><a className="getstart">Get Started Free</a> </Link>
         <p className="small">Why not? It's free forever.</p>
-       <img src={imgs[0]} className="main_image"></img>
+       <img src={imgs[0]} className="ankitmain_image"></img>
          <div className="outer" >
              <h2 className="small_2">30,000 marketers start their day with&nbsp;CoSchedule</h2>
         <div className="grid-container" style={{backgroundColor: "white"}} >
@@ -143,7 +147,7 @@ function Main() {
   <h2 class="orange_p">Organize all of your marketing in one&nbsp;place</h2>
   <a   class="orange_heading">Get Started Free</a>
   </div>
-<div>
+<div className='ankitimage'>
   <img src={footer}></img>
 </div>
         </div>
