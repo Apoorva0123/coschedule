@@ -1,4 +1,4 @@
-.heading{
+.theheading{
     font-size: 55px;
     font-family: MuseoSans-700,sans-serif;
     font-weight: 700;
@@ -9,6 +9,12 @@
     color: #4b4b4b;
     display: block;
     margin-top: 100px;
+    text-align: center;
+}
+.ankitmain_image
+{
+    /* border: 1px solid; */
+    margin-left: 150px;
 }
 .mini_heading{
     font-size: 18px;
@@ -20,7 +26,7 @@
     text-align: center;
     font-weight:100;
 }
-.start{
+.getstart{
     -webkit-text-size-adjust: 100%;
     --orange-lt-gradient: linear-gradient(90deg,#f37e5d 0%,#f9a97d);
     --museo-bold: "museoSans-700",sans-serif;
@@ -49,6 +55,7 @@
     color: #fff!important;
     box-sizing: border-box;
     text-decoration: none;
+    margin-left: 42.55%;
 }
 .small{
         tab-size: 4;
@@ -242,13 +249,19 @@ border-radius: 2%;
     }
 .box_small{
     align-content: left;
-    width: 30%;
+    width: 40%;
     margin: -50px;
-    margin-left: 1px;
+    margin-left: 50px;
     background-color: white !important;
+    
+}
+.ankitimage
+{
+    margin-left: 150px;
 }
 .box_small_img{
  border-radius: 8%;
+ 
 }
 .box_li::before{
 content: '✓ ';
@@ -288,7 +301,7 @@ content: '✓ ';
 }
 .tbox{
 margin-top:100px;
-background-color: white !important;
+/* background-color: white !important; */
 
 }
 .grid_container_2{
@@ -301,7 +314,7 @@ background-color: white !important;
     margin-top: 60px;
     text-align: center;
     color: rgb(75, 75, 75);
-    background-color: white !important;
+    /* background-color: white !important; */
     padding-bottom: 150px;
 }
 .gartner{
@@ -310,25 +323,25 @@ background-color: white !important;
     /* border: 1px solid black; */
     margin-top: 30px;
     font-weight: 700;
-    background-color: white !important;
+    /* background-color: white !important; */
     
 }
 .magic{
         font-size: 24px;
     margin-bottom: 10px;
-    background-color: white !important;
+    /* background-color: white !important; */
 }
 .gartner_div{
 text-align: center;
     border: 3px solid #F4F4F4;
-    background-color: white !important;
+    /* background-color: white !important; */
     box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 5%);
 }
 .gartner_div:hover{
 box-shadow: 2px 2px 20px 0 rgb(0 0 0 / 25%);
 }
 .three{
-    background-color: white !important;
+    /* background-color: white !important; */
     
     
 }

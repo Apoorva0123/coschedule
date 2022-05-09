@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from '../images/logo.png';
+import logo from './images/logo.png';
 import './main_navbar.css'
-function Navbar() {
+function AnkitNavbar() {
     
   return (
     <nav className="nav">
@@ -25,4 +25,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default AnkitNavbar

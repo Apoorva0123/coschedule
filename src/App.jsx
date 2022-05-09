@@ -10,6 +10,7 @@ import { Home } from './components/newHome'
 import { Navbar } from './components/Navbar'
 import { Analytics } from './components/analytics'
 import { Reque } from './components/requeue'
+// import Main from './components/main'
 
 function App() {
 
@@ -17,11 +18,13 @@ function App() {
 
 
   return (
-    <div className="App">
-      {/* <Test></Test>
-      <Calender ></Calender>   */}
-      {/* {blur ? <Test></Test> : <Calender></Calender>} */}
+    <div className="App" >
+     
+      <div >
       <Navbar></Navbar>
+
+      </div>
+      <div>
       <Routes>
         <Route>
         <Route path="/" element= {<Home />}></Route>
@@ -30,8 +33,10 @@ function App() {
         <Route path="/requeue" element={<Reque></Reque>} ></Route>
         </Route>
       </Routes>
-      
-      
+      </div>
+      {/* <Main></Main> */}
+  
+
 
     </div>
   )
